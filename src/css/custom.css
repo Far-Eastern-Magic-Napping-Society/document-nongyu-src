@@ -28,3 +28,98 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Live2D 看板娘样式 */
+#live2d-widget {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+#live2d-widget canvas {
+  pointer-events: auto;
+}
+
+/* 对话框样式 */
+.live2d-widget-dialog {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: #333;
+  max-width: 200px;
+  word-wrap: break-word;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.live2d-widget-dialog.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.live2d-widget-dialog::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  border: 8px solid transparent;
+  border-top-color: rgba(255, 255, 255, 0.9);
+}
+
+/* 控制按钮样式 */
+.live2d-widget-control {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.live2d-widget-control button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.live2d-widget-control button:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  #live2d-widget {
+    transform: scale(0.8);
+    bottom: -20px;
+    right: -20px;
+  }
+  
+  .live2d-widget-dialog {
+    max-width: 150px;
+    font-size: 12px;
+  }
+}
+
+/* 隐藏时的样式 */
+#live2d-widget.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
