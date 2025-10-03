@@ -2,46 +2,45 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 农屿文档中心
 
-Let's discover **Docusaurus in less than 5 minutes**.
+欢迎来到农屿APP的官方文档中心，这里为您提供完整的使用指南和技术文档。
 
-## Getting Started
+## 快速开始
 
-Get started by **creating a new site**.
+### 下载农屿APP
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+农屿APP是专为四川农业大学学生打造的智慧校园助手，提供纯净无广告的校园服务体验。
 
-### What you'll need
+[立即下载农屿APP](https://nongzhuan555.github.io/)
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 主要功能
 
-## Generate a new site
+- **课表查询**：简洁的课程表界面，支持旷课记录
+- **校园论坛**：食堂评分、课程讨论、生活分享
+- **教务信息**：成绩查询、学分统计、专业排名
+- **安全社区**：仅限川农学生使用，确保社区环境
 
-Generate a new Docusaurus site using the **classic template**.
+### 使用指南
 
-The classic template will automatically be added to your project after you run the command:
+1. **首次使用**：使用川农教务网账号登录
+2. **功能探索**：浏览各个功能模块
+3. **社区参与**：加入论坛讨论交流
+4. **问题反馈**：通过QQ群联系开发者
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### 技术支持
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- **QQ群**：点击下载页面获取群号
+- **开发者**：通过QQ群联系
+- **更新日志**：查看最新版本信息
+- **用户手册**：详细使用说明
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## 文档导航
 
-## Start your site
+- **[农屿APP介绍](./nongyu-intro)** - 了解农屿的核心理念和开发背景
+- **[功能详解](./nongyu-features)** - 详细的功能说明和使用方法  
+- **[用户手册](./nongyu-manual)** - 完整的使用指南和问题解答
 
-Run the development server:
+---
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+*农屿APP - 让校园生活更简单*

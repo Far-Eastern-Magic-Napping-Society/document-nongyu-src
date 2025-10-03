@@ -32,11 +32,14 @@ const sidebars = {
    */
   tutorialSidebar: [
     'intro',
-    'hello',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: '农屿APP',
+      items: [
+        'nongyu-intro',
+        'nongyu-features', 
+        'nongyu-manual',
+      ],
     },
   ],
 

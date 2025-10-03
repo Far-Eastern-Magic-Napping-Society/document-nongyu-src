@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '农屿',
-  tagline: 'Dinosaurs are cool',
+  title: '农屿文档',
+  tagline: '川农智慧校园助手 - 让校园生活更简单',
   favicon: 'https://nongzhuan555.github.io/img/logo/logo.jpg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
