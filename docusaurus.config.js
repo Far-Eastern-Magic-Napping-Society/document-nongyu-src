@@ -87,7 +87,7 @@ const config = {
         title: '我的网站',
         logo: {
           alt: '网站Logo',
-          src: 'img/logo.svg',
+          src: 'https://nongzhuan555.github.io/img/logo/logo.jpg',
         },
         items: [
           {
@@ -96,8 +96,9 @@ const config = {
             position: 'left',
             label: '教程',
           },
+          { href: 'https://nongzhuan555.github.io/', label: '下载', position: 'left' },
           { type: 'docsVersionDropdown', position: 'right' },
-          {type: 'localeDropdown'},
+          {type: 'localeDropdown',position: 'right'},
           { to: '/blog', label: '博客', position: 'left' },
           {
             href: 'https://github.com/tkzzzzzz6/document-nongyu-src',
@@ -149,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `版权所有 © ${new Date().getFullYear()} 我的项目。使用 Docusaurus 构建。`,
+        copyright: `版权所有 © ${new Date().getFullYear()} 农屿。使用 Docusaurus 构建。`,
       },
       prism: {
         theme: prismThemes.github,
