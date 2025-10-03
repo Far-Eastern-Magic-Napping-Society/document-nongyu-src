@@ -1,0 +1,7 @@
+{
+  "theme.CodeBlock.copied": "已复制",
+  "theme.CodeBlock.copy": "复制代码",
+  "theme.CodeBlock.copyAriaLabel": "复制代码到剪贴板",
+  "theme.CodeBlock.copySuccess": "复制成功",
+  "theme.CodeBlock.copyError": "复制失败"
+}

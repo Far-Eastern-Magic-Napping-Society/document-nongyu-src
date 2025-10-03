@@ -37,7 +37,6 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   // i18n: {
   //   defaultLocale: 'zh',
-  //   // locales: ['zh', 'en'],
   //   locales: ['zh'],
   // },
 
@@ -96,8 +95,8 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          { href: 'https://nongzhuan555.github.io/', label: '下载', position: 'left' },
           { to: '/blog', label: '博客', position: 'left' },
+          { href: 'https://nongzhuan555.github.io/', label: '下载', position: 'left' },
           {
             href: 'https://github.com/tkzzzzzz6/document-nongyu-src',
             label: 'GitHub',
