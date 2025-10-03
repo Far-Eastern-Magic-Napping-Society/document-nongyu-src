@@ -28,7 +28,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nongzhuan555', // Usually your GitHub org/user name.
-  projectName: 'nongzhuan555.github.io', // Usually your repo name.
+  projectName: 'nongyu', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -37,7 +37,8 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh', 'en'],
+    // locales: ['zh', 'en'],
+    locales: ['zh'],
   },
 
   presets: [
