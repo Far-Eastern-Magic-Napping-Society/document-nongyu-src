@@ -35,11 +35,11 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'zh',
-    // locales: ['zh', 'en'],
-    locales: ['zh'],
-  },
+  // i18n: {
+  //   defaultLocale: 'zh',
+  //   // locales: ['zh', 'en'],
+  //   locales: ['zh'],
+  // },
 
   presets: [
     [
@@ -84,7 +84,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: '我的网站',
+        title: '农屿文档',
         logo: {
           alt: '网站Logo',
           src: 'https://nongzhuan555.github.io/img/logo/logo.jpg',
@@ -94,11 +94,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '教程',
+            label: '文档',
           },
           { href: 'https://nongzhuan555.github.io/', label: '下载', position: 'left' },
-          { type: 'docsVersionDropdown', position: 'right' },
-          {type: 'localeDropdown',position: 'right'},
           { to: '/blog', label: '博客', position: 'left' },
           {
             href: 'https://github.com/tkzzzzzz6/document-nongyu-src',
@@ -114,25 +112,33 @@ const config = {
             title: '文档',
             items: [
               {
-                label: '教程',
-                to: '/docs/intro',
+                label: '农屿介绍',
+                to: '/docs/nongyu-intro',
+              },
+              {
+                label: '功能详解',
+                to: '/docs/nongyu-features',
+              },
+              {
+                label: '用户手册',
+                to: '/docs/nongyu-manual',
               },
             ],
           },
           {
-            title: '社区',
+            title: '农屿APP',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '立即下载',
+                href: 'https://nongzhuan555.github.io/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '功能特色',
+                to: '/docs/nongyu-features',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: '使用指南',
+                to: '/docs/nongyu-manual',
               },
             ],
           },
@@ -150,7 +156,7 @@ const config = {
             ],
           },
         ],
-        copyright: `版权所有 © ${new Date().getFullYear()} 农屿。使用 Docusaurus 构建。`,
+        copyright: `版权所有 © ${new Date().getFullYear()} 农屿APP。川农智慧校园助手。`,
       },
       prism: {
         theme: prismThemes.github,

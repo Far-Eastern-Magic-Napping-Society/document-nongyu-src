@@ -13,14 +13,19 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          农屿APP
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">川农智慧校园助手 - 让校园生活更简单</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus 教程 - 5分钟 ⏱️
+            查看文档 📚
+          </Link>
+          <Link
+            className="button button--primary button--lg"
+            href="https://nongzhuan555.github.io/">
+            立即下载 📱
           </Link>
         </div>
       </div>
@@ -32,8 +37,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`欢迎来到 ${siteConfig.title}`}
-      description="使用 Docusaurus 构建的现代化网站">
+      title={`${siteConfig.title} - 川农智慧校园助手`}
+      description="农屿APP是专为四川农业大学学生打造的智慧校园助手，提供课表查询、校园论坛、教务信息等一站式服务。">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -1,3 +1,12 @@
+nongyu-team:
+  name: 农屿开发团队
+  title: 农屿APP开发团队
+  url: https://nongzhuan555.github.io/
+  image_url: https://nongzhuan555.github.io/img/logo/logo.jpg
+  page: true
+  socials:
+    github: tkzzzzzz6
+    
 yangshun:
   name: Yangshun Tay
   title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
