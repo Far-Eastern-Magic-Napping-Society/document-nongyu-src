@@ -32,3 +32,53 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+developer-zhang:
+  name: 张同学
+  title: 前端开发工程师
+  url: https://github.com/zhang-dev
+  image_url: https://github.com/zhang-dev.png
+  page: true
+  socials:
+    github: zhang-dev
+    email: zhang@nongyu.com
+
+developer-li:
+  name: 李同学
+  title: 后端开发工程师
+  url: https://github.com/li-dev
+  image_url: https://github.com/li-dev.png
+  page: true
+  socials:
+    github: li-dev
+    email: li@nongyu.com
+
+designer-wang:
+  name: 王同学
+  title: UI/UX设计师
+  url: https://github.com/wang-design
+  image_url: https://github.com/wang-design.png
+  page: true
+  socials:
+    github: wang-design
+    email: wang@nongyu.com
+
+tester-chen:
+  name: 陈同学
+  title: 测试工程师
+  url: https://github.com/chen-test
+  image_url: https://github.com/chen-test.png
+  page: true
+  socials:
+    github: chen-test
+    email: chen@nongyu.com
+
+contributor-zhao:
+  name: 赵同学
+  title: 社区贡献者
+  url: https://github.com/zhao-contrib
+  image_url: https://github.com/zhao-contrib.png
+  page: true
+  socials:
+    github: zhao-contrib
+    email: zhao@nongyu.com
