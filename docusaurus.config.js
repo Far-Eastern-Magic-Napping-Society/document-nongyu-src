@@ -96,8 +96,8 @@ const config = {
             label: '文档',
           },
           { to: '/blog', label: '博客', position: 'left' },
-          { to: '/contributors', label: '贡献者', position: 'left' },
           { href: 'https://nongzhuan555.github.io/', label: '下载', position: 'left' },
+          { to: '/contributors', label: '贡献者', position: 'right' },
           {
             href: 'https://github.com/tkzzzzzz6/document-nongyu-src',
             label: 'GitHub',
