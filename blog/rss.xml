@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>农屿文档 Blog</title>
+        <link>https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog</link>
+        <description>农屿文档 Blog</description>
+        <lastBuildDate>Fri, 03 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[欢迎使用农屿APP]]></title>
+            <link>https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome</link>
+            <guid>https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome</guid>
+            <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[欢迎来到农屿APP的官方文档中心！我们很高兴为您介绍这个专为四川农业大学学生打造的智慧校园助手。]]></description>
+            <content:encoded><![CDATA[<p>欢迎来到农屿APP的官方文档中心！我们很高兴为您介绍这个专为四川农业大学学生打造的智慧校园助手。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="什么是农屿app">什么是农屿APP？<a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome#%E4%BB%80%E4%B9%88%E6%98%AF%E5%86%9C%E5%B1%BFapp" class="hash-link" aria-label="Direct link to 什么是农屿APP？" title="Direct link to 什么是农屿APP？" translate="no">​</a></h2>
+<p>农屿APP是一个专为川农学子设计的校园生活助手，旨在提供纯净、便捷的校园服务体验。我们致力于解决传统校园软件存在的问题：</p>
+<ul>
+<li><strong>零广告干扰</strong> - 纯净无打扰的校园空间</li>
+<li><strong>安全社区</strong> - 仅限川农学生使用，确保社区环境安全</li>
+<li><strong>服务聚合</strong> - 整合重要教务信息，一站式服务</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="核心功能">核心功能<a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome#%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="Direct link to 核心功能" title="Direct link to 核心功能" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-课表查询">📅 课表查询<a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome#-%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2" class="hash-link" aria-label="Direct link to 📅 课表查询" title="Direct link to 📅 课表查询" translate="no">​</a></h3>
+<ul>
+<li>简洁的课程表界面</li>
+<li>旷课记录提醒功能</li>
+<li>自动同步教务网数据</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-校园论坛">💬 校园论坛<a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome#-%E6%A0%A1%E5%9B%AD%E8%AE%BA%E5%9D%9B" class="hash-link" aria-label="Direct link to 💬 校园论坛" title="Direct link to 💬 校园论坛" translate="no">​</a></h3>
+<ul>
+<li>食堂评分系统</li>
+<li>课程讨论交流</li>
+<li>校园生活分享</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-教务信息">📊 教务信息<a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome#-%E6%95%99%E5%8A%A1%E4%BF%A1%E6%81%AF" class="hash-link" aria-label="Direct link to 📊 教务信息" title="Direct link to 📊 教务信息" translate="no">​</a></h3>
+<ul>
+<li>成绩查询</li>
+<li>学分统计</li>
+<li>专业排名</li>
+<li>教学通知</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="立即开始">立即开始<a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome#%E7%AB%8B%E5%8D%B3%E5%BC%80%E5%A7%8B" class="hash-link" aria-label="Direct link to 立即开始" title="Direct link to 立即开始" translate="no">​</a></h2>
+<ol>
+<li><strong><a href="https://nongzhuan555.github.io/" target="_blank" rel="noopener noreferrer">下载农屿APP</a></strong> - 获取最新版本</li>
+<li><strong><a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/docs/nongyu-manual">查看使用指南</a></strong> - 详细了解功能使用方法</li>
+<li><strong><a href="https://nongzhuan555.github.io/" target="_blank" rel="noopener noreferrer">加入QQ群</a></strong> - 与其他用户交流经验</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="联系我们">联系我们<a href="https://far-eastern-magic-napping-society.github.io/document-nongyu-src/blog/welcome#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC" class="hash-link" aria-label="Direct link to 联系我们" title="Direct link to 联系我们" translate="no">​</a></h2>
+<p>如果您在使用过程中遇到任何问题，或有任何建议，欢迎通过以下方式联系我们：</p>
+<ul>
+<li><strong>QQ群</strong>：点击下载页面获取群号</li>
+<li><strong>开发者</strong>：通过QQ群直接联系</li>
+<li><strong>反馈</strong>：在APP内提交反馈建议</li>
+</ul>
+<hr>
+<p><em>农屿APP - 让校园生活更简单</em></p>
+<blockquote>
+<p>我们承诺持续改进产品，为川农学子提供更好的校园服务体验。</p>
+</blockquote>]]></content:encoded>
+            <category>欢迎</category>
+            <category>农屿</category>
+            <category>川农</category>
+        </item>
+    </channel>
+</rss>

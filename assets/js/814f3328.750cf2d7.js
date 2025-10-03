@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocument_nongyu_src=self.webpackChunkdocument_nongyu_src||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u6b22\u8fce\u4f7f\u7528\u519c\u5c7fAPP","permalink":"/document-nongyu-src/blog/welcome","unlisted":false,"date":"2025-10-03T00:00:00.000Z"}]}')}}]);

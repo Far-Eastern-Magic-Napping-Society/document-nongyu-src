@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocument_nongyu_src=self.webpackChunkdocument_nongyu_src||[]).push([[234],{8674:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/document-nongyu-src/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
