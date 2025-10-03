@@ -34,7 +34,27 @@ const Live2D = () => {
             display: live2dConfig.display,
             mobile: live2dConfig.mobile,
             react: live2dConfig.react,
-            dialog: live2dConfig.dialog,
+            dialog: {
+              enable: live2dConfig.dialog.enable,
+              script: live2dConfig.dialog.script,
+              hitokoto: false,
+              hitokotoAPI: '',
+              hitokotoMaxLength: 20,
+              hitokotoTime: 60000,
+              hitokotoText: '一言',
+              hitokotoWidth: 250,
+              hitokotoHeight: 100,
+              hitokotoX: 0,
+              hitokotoY: 0,
+              hitokotoFont: '12px Microsoft YaHei',
+              hitokotoColor: '#191970',
+              hitokotoBackground: 'rgba(255, 255, 255, 0.8)',
+              hitokotoBorder: '1px solid #ccc',
+              hitokotoBorderRadius: '5px',
+              hitokotoPadding: '10px',
+              hitokotoBoxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
+              hitokotoZIndex: 9999
+            },
           });
           setIsLoaded(true);
         } catch (error) {
@@ -63,54 +83,7 @@ const Live2D = () => {
     };
   }, []);
 
-  // 添加控制按钮
-  const toggleLive2D = () => {
-    if (window.L2Dwidget) {
-      const widget = document.getElementById('live2d-widget');
-      if (widget) {
-        widget.classList.toggle('hidden');
-      }
-    }
-  };
-
-  return (
-    <>
-      {isLoaded && (
-        <div 
-          style={{
-            position: 'fixed',
-            bottom: '10px',
-            right: '170px',
-            zIndex: 10000,
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '5px'
-          }}
-        >
-          <button
-            onClick={toggleLive2D}
-            style={{
-              width: '30px',
-              height: '30px',
-              border: 'none',
-              background: 'rgba(255, 255, 255, 0.8)',
-              borderRadius: '50%',
-              cursor: 'pointer',
-              fontSize: '14px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              transition: 'all 0.3s ease',
-              boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)'
-            }}
-            title="切换看板娘显示"
-          >
-            👋
-          </button>
-        </div>
-      )}
-    </>
-  );
+  return null; // 不渲染任何控制按钮
 };
 
 export default Live2D;

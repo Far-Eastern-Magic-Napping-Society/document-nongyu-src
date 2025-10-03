@@ -19,12 +19,12 @@ export const live2dConfig = {
   // 移动端配置
   mobile: {
     show: true, // 移动端是否显示
-    scale: 0.5, // 移动端缩放比例
+    scale: 1, // 移动端缩放比例
   },
 
   // 反应配置
   react: {
-    opacity: 0.7, // 透明度
+    opacity: 0.8, // 透明度
   },
 
   // 对话框配置
@@ -48,7 +48,7 @@ export const live2dConfig = {
     // 自动隐藏时间（毫秒，0 表示不自动隐藏）
     autoHide: 0,
     // 是否显示控制按钮
-    showControls: true
+    showControls: false
   }
 };
 
